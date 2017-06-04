@@ -1,0 +1,37 @@
+Recursion
+1. When a function calls itself within the function.
+
+2. To have a time with the recursion will stop and you will eventually exit out of the function.
+
+Graphs
+1. Similar to a Tree, exepct that it can be cyclical.
+
+2. It can be cyclical, undirected, and isn't hierarchical.
+
+3. Facebook friends
+
+Performance
+
+Data Structure     Index   Search  Add-R   Add-L   Pop-L   Pop-R
+Python List (Array) O(1)    O(n)    O(1)    O(n)    O(n)    O(1)        
+Linked List          O(n)   O(n)    O(1)    O(1)    O(1)    O(n)            
+Doubly-Linked List   O(n)   O(n)    O(1)    O(1)    O(1)    O(1)                    
+Queue (as Array)     X      X       O(1)      X     O(n)      X
+Queue (as LL or DLL) X      X       O(1)      X     O(1)        X
+Stack (as Array, LL, or DLL)X   X   O(1)      X     X       O(1)
+Deque (as DLL)       X      X       O(1)    O(1)    O(1)    O(1)
+
+Data Structure          Get     Add     Delete  Iterate Memory
+Dictionary (Hash Map)   O(1)    O(1)    O(1)    O(n)    medium
+Set (Hash Map)          O(1)    O(1)    O(1)    O(n)    medium 
+Binary Search Tree      O(log n)O(log n)O(log n)O(1)    a little         
+Tree                    O(n)    O(1)    O(1)    O(1)    a little
+
+Sorting
+1. You look at each pair of numbers, going from left to right, and switch the biggest number to the right.
+   You continue looping over this way until all the numbers are in order with the highest on the right.
+
+2. We separate the group into smaller groups of 1 or 2 items, sorting those groups, and then merging them 
+   back together in the correct order.
+
+3. We select a pivot and then move everything either right or left of the pivot depending on how they compare to it. 
